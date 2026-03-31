@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Wordle</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body data-page = "game" id = "game">
+        <h1 class = "dark">WORDLE</h1>
+        <br><br><br><br>
+        <div class = "center">
+            <div class = wordle>
+                <form action = "script.js" method="post" id ="try1">
+                        <input type = "text" id="11" name="11"  required maxlength="1" minlength="1" class ="try1" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="12" name="12"  required maxlength="1" minlength="1" class ="try1" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="13" name="13"  required maxlength="1" minlength="1" class ="try1" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="14" name="14"  required maxlength  ="1" minlength="1" class ="try1" disabled pattern="[A-Za-z]+">  
+                        <input type = "text" id="15" name="15"  required maxlength="1" minlength="1" class ="try1" disabled pattern="[A-Za-z]+"> 
+                        <input type = "submit" value="Submit" class="submit1">
+                </form>
+                <form action = "script.js" method="post" id ="try2">   
+                    
+                        <input type = "text" id="21" name="21"  required maxlength="1" minlength="1" class ="try2" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="22" name="22"  required maxlength="1" minlength="1" class ="try2" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="23" name="23"  required maxlength="1" minlength="1" class ="try2" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="24" name="24"  required maxlength="1" minlength="1" class ="try2" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="25" name="25"  required maxlength="1" minlength="1" class ="try2" disabled pattern="[A-Za-z]+"> 
+                        <input type = "submit" value="Submit" class="submit2">
+                </form>
+                <form action = "script.js" method="post" id ="try3">  
+                        <input type = "text" id="31" name="31"  required maxlength="1" minlength="1" class ="try3" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="32" name="32"  required maxlength="1" minlength="1" class ="try3" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="33" name="33"  required maxlength="1" minlength="1" class ="try3" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="34" name="34"  required maxlength="1" minlength="1" class ="try3" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="35" name="35"  required maxlength="1" minlength="1" class ="try3" disabled pattern="[A-Za-z]+"> 
+                        <input type = "submit" value="Submit" class="submit3">
+                </form>
+                <form action = "script.js" method="post" id ="try4">   
+                        <input type = "text" id="41" name="41"  required maxlength="1" minlength="1" class ="try4" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="42" name="42"  required maxlength="1" minlength="1" class ="try4" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="43" name="43"  required maxlength="1" minlength="1" class ="try4" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="44" name="44"  required maxlength="1" minlength="1" class ="try4" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="45" name="45"  required maxlength="1" minlength="1" class ="try4" disabled pattern="[A-Za-z]+"> 
+                        <input type = "submit" value="Submit" class="submit4">
+                </form>
+                <form action = "script.js" method="post" id ="try5">   
+                        <input type = "text" id="51" name="51"  required maxlength  ="1" minlength="1" class ="try5" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="52" name="52"  required maxlength  ="1" minlength="1" class ="try5" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="53" name="53"  required maxlength  ="1" minlength="1" class ="try5" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="54" name="54"  required maxlength  ="1" minlength="1" class ="try5" disabled pattern="[A-Za-z]+"> 
+                        <input type = "text" id="55" name="55"  required maxlength  ="1" minlength="1" class ="try5" disabled pattern="[A-Za-z]+"> 
+                        <input type = "submit" value="Submit" class="submit5">
+                </form>
+                <form action = "script.js" method="post" id ="try6">   
+                        <input type ="text" id = "61" name="61" required maxlength="1" minlength="1" class ="try6" disabled pattern="[A-Za-z]+"> 
+                        <input type ="text" id = "62" name="62" required maxlength="1" minlength="1" class ="try6" disabled pattern="[A-Za-z]+"> 
+                        <input type ="text" id = "63" name="63" required maxlength="1" minlength="1" class ="try6" disabled pattern="[A-Za-z]+"> 
+                        <input type ="text" id = "64" name="64" required maxlength="1" minlength="1" class ="try6" disabled pattern="[A-Za-z]+"> 
+                        <input type ="text" id = "65" name="65" required maxlength="1" minlength="1" class ="try6" disabled pattern="[A-Za-z]+"> 
+                        <input type = "submit" value="Submit" class="submit6">
+                </form>
+                
+                <br><br>
+                <div class = "center">
+
+                        <form action = "script.js" method="post" id ="replay" class = "replay">
+                                <input type = "submit" value="Play Again" >
+                        </form>   
+                </div>     
+
+            </div>
+        </div>
+        <h3>Current Streak: <span id="streak"></span></h2>
+
+
+        <script src="list.js"></script>
+        <script src="script.js"></script>
+        
+
+    </body>
+
+
+</html>

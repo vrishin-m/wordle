@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Wordle Login</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body data-page = "home" id = "home">
+        <div class="center">
+            <h1 class = "light">WORDLE</h1>
+        </div>
+        <br><br>
+        <div class = "center">
+            <div class ="login">
+                <form action = "script.js" method="post" id ="loginform">
+                    <label for="username">Username:</label> 
+                    <br>
+                    <input type = "text" id="username" name="username" placeholder="Enter your name" required>
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <br>
+                    <input type = "password" id="password" name="password" placeholder="Enter your password" required>
+                    <br><br>
+                    <input type="submit" value="login"></input>
+                    
+                </form>
+            </div>
+        </div>
+        <br> <br> <br>
+        <div class ="center">
+            <div class = "about">
+                
+                <h2> About the project</h2>
+                <p> This is a simple implementation of the popular Wordle game using HTML, CSS, and JavaScript. 
+                    It's my first web application, so I focused on completing all the basic functionalities rather than 
+                    perfecting the design.
+                    <br>
+                    <br>
+                </p>
+
+                <h2> About me </h2>
+                <p> I'm Vrishin (aka Gandalf). Making this project taught me the basics of HTML, CSS, JS and how to integrate them.
+                    It's a great intro that I hope will help with future projects. </p>
+            </div>
+        </div>
+        <script src="list.js"></script>
+        <script src="script.js"></script>
+    </body>
+ </html>
